@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-vx-2%%b3)-3f!ev_7x7y)!237b_b9hq6(=ezwwev#$mjh-uvyi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["disc-forum-pict.herokuapp.com"]
 
 
 # Application definition
