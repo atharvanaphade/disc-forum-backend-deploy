@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-vx-2%%b3)-3f!ev_7x7y)!237b_b9hq6(=ezwwev#$mjh-uvyi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://disc-forum-pict.herokuapp.com", "localhost", "127.0.0.1", "disc-forum.netlify.app"]
+ALLOWED_HOSTS = ["https://disc-forum-pict.herokuapp.com", "localhost", "127.0.0.1", "https://disc-forum.netlify.app"]
 
 
 # Application definition
@@ -49,7 +49,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = False
 
 CORS_ORIGIN_WHITELIST = [
-  '*',
+  'https://disc-forum.netlify.app',
 ]
 
 MIDDLEWARE = [
